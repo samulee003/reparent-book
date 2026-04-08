@@ -1,0 +1,48 @@
+# 書稿專案 Git Ignore
+
+# === 個人資料 / 敏感數據（不上傳） ===
+*.json
+fb_posts_fixed.json
+fb_long_posts.json
+fb_book_analysis.json
+
+# === 暫存 / Debug 腳本 ===
+debug_*.py
+debug_*.js
+check_*.py
+find_*.py
+fix_*.py
+refix_*.py
+proper_*.py
+verify_*.py
+scan_fb_posts*.py
+extract_gems.py
+scan_for_gems.py
+
+# === 分析腳本（保留在本地即可）===
+analyze_*.py
+analyze_*.js
+build_material_map.py
+deep_analysis.py
+read_ppts*.py
+upload_to_feishu.py
+gen_*.js
+create_sleep_ppt*.js
+read_sleep_reg.py
+
+# === 報告產物（非書稿） ===
+*.pptx
+*.docx
+modified_straw_camel_v1.pptx
+
+# === 其他 ===
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*~
+
+# === WorkBuddy 內部（不上傳） ===
+.workbuddy/
+
+# === 上傳的內容：book/*.md, src/, 根目錄關鍵 md ===
