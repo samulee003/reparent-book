@@ -57,6 +57,7 @@
 - 臨床視角整合：IFS / Polyvagal / Schema callout
 - 三套結構方案比較：採用方案 C 正式定稿版
 - 方案 C 第五輪審稿：P0/P1/P2 全部修復（9.5/10）
+- 第六輪全面審稿：簡體字/術語/代名詞/格式全部修復
 
 ## Next Steps（定稿最後階段）
 - 輸出全書 DOCX：`node scripts/generate_book.js`

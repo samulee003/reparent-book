@@ -2,6 +2,17 @@
 
 ## 2026-04-10
 
+### 第六輪全面審稿（plan-c 正式稿）
+
+- 全書 14 個檔案逐章審閱，修復以下問題：
+  - **P0** ch09：小傑/小杰 簡繁不一致（杰 → 傑），全部統一為繁體「傑」
+  - **P1** ch05：術語違規「情感忽視」→「童年情感忽視」
+  - **P1** ch09：妳/你 代名詞錯誤，對男孩角色小傑應使用「你」
+  - **P1** ch09：阿傑 改名為 阿凱，避免與同章小傑混淆
+  - **P1** ch10：本章小結中孤立的項目符號與格式錯誤修正
+  - **P1** ch12：本章小結中孤立的項目符號修正
+- 確認通過項目：簡體字 ✅、禁用 AI 用語 ✅、術語統一 ✅、章節編號無重複 ✅、核心框架對齊（前言＋後記皆引用）✅
+
 ### Core Framework + Documentation Sync
 
 - Clarified the manuscript's explicit core framework in the canonical `book/plan-c/` manuscript:
