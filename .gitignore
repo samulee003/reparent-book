@@ -45,4 +45,7 @@ Thumbs.db
 # === WorkBuddy 內部（不上傳） ===
 .workbuddy/
 
+# === Node.js ===
+node_modules/
+
 # === 上傳的內容：book/*.md, src/, 根目錄關鍵 md ===
