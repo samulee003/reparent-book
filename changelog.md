@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-04-10
+
+### Core Framework + Documentation Sync
+
+- Clarified the manuscript's explicit core framework in the canonical `book/plan-c/` manuscript:
+  - **先安頓，再教養**
+  - **看見 → 命名 → 安頓 → 重寫**
+  - **育兒，不只是養孩子，也是重新養育自己**
+- Updated documentation files to match the current source of truth and final framing:
+  - `README.md`
+  - `agent.md`
+  - `book/agent.md`
+- Corrected editing guidance so `book/plan-c/` is treated as the only current manuscript source, while `book/02_contents/` remains a historical backup.
+
 ## 2026-04-09
 
 ### Book Manuscript
