@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -8,10 +7,11 @@ BOOK_TITLE = "當了父母，才開始重新養育自己"
 BOOK_SUBTITLE = "心理師的覺察式育兒練習"
 AUTHOR = "鋅鋰師拔麻"
 VERSION_LABEL = "初版審閱稿"
+REVIEW_DATE = "2026-04-10"
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 BOOK_DIR = REPO_ROOT / "book" / "plan-c"
-OUTPUT = REPO_ROOT / "book" / "當了父母，才開始重新養育自己_初版審閱稿_2026-04-10.md"
+OUTPUT = REPO_ROOT / "book" / f"當了父母，才開始重新養育自己_初版審閱稿_{REVIEW_DATE}.md"
 
 PARTS = [
     {
@@ -83,7 +83,6 @@ def load_markdown(name: str) -> str:
 
 
 def build_cover() -> str:
-    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     return "\n".join(
         [
             "# 封面",
@@ -92,7 +91,7 @@ def build_cover() -> str:
             f"**副標**：{BOOK_SUBTITLE}",
             f"**作者**：{AUTHOR}",
             f"**版本**：{VERSION_LABEL}",
-            f"**日期**：{date_str}",
+            f"**日期**：{REVIEW_DATE}",
             "",
             "## 封面主視覺方向",
             "",
