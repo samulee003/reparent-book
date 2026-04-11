@@ -1,6 +1,6 @@
 /**
  * Generate complete book manuscript DOCX
- * Book: 當了父母，才開始重新養育自己
+ * Book: 養孩子，也重新好好養自己
  * Author: 鋅鋰師拔麻（心理師）
  */
 const fs = require('fs');

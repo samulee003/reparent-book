@@ -2,7 +2,7 @@
 generate_publisher_docx.py
 出版社版 DOCX 生成腳本
 
-《當了父母，才開始重新養育自己：心理師的覺察式育兒練習》
+《養孩子，也重新好好養自己：心理師的覺察式育兒練習》（全書以「安頓力」為核心框架）
 讀取來源：book/plan-c/（方案 C 正式定稿版）
 輸出格式：A4 / 25K 可調，微軟正黑體 + 新細明體雙字型，含封面、目錄、篇章頁、章節正文
 
@@ -28,13 +28,13 @@ from docx.shared import Cm, Pt, RGBColor
 REPO_ROOT = Path(__file__).resolve().parents[1]
 BOOK_DIR = REPO_ROOT / "book" / "plan-c"
 
-BOOK_TITLE = "當了父母，才開始重新養育自己"
+BOOK_TITLE = "養孩子，也重新好好養自己"
 BOOK_SUBTITLE = "心理師的覺察式育兒練習"
 AUTHOR = "鋅鋰師拔麻"
 VERSION_LABEL = "出版社審閱版"
-REVIEW_DATE = "2026-04-10"
+REVIEW_DATE = "2026-04-11"
 
-OUTPUT = REPO_ROOT / "book" / f"當了父母，才開始重新養育自己_出版社版_{REVIEW_DATE}.docx"
+OUTPUT = REPO_ROOT / "book" / f"養孩子，也重新好好養自己_出版社版_{REVIEW_DATE}.docx"
 
 # 方案 C 四篇架構
 PARTS = [
