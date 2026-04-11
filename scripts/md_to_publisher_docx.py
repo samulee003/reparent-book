@@ -13,7 +13,7 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 
-TITLE = "養孩子，也重新好好養自己"
+TITLE = "當了父母，才開始重新養育自己"
 SUBTITLE = "心理師的覺察式育兒練習"
 
 
