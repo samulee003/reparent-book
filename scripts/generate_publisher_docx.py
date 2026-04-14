@@ -28,13 +28,13 @@ from docx.shared import Cm, Pt, RGBColor
 REPO_ROOT = Path(__file__).resolve().parents[1]
 BOOK_DIR = REPO_ROOT / "book" / "plan-c"
 
-BOOK_TITLE = "當了父母，才開始重新養育自己"
+BOOK_TITLE = "養孩子，也重新養自己"
 BOOK_SUBTITLE = "心理師的覺察式育兒練習"
 AUTHOR = "鋅鋰師拔麻"
-VERSION_LABEL = "出版社審閱版"
-REVIEW_DATE = "2026-04-10"
+VERSION_LABEL = "完整書稿（編輯修訂版）"
+REVIEW_DATE = "2026-04-13"
 
-OUTPUT = REPO_ROOT / "book" / f"當了父母，才開始重新養育自己_出版社版_{REVIEW_DATE}.docx"
+OUTPUT = REPO_ROOT / "book" / f"養孩子也重新養自己_完整書稿_{REVIEW_DATE}.docx"
 
 # 方案 C 四篇架構
 PARTS = [
